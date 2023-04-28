@@ -1,0 +1,112 @@
+#head{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content:space-around;
+    align-items: center;
+    padding: 1%;
+
+}
+@keyframes anime{
+    0%{ transform: rotate(0deg);}
+    25%{ transform: rotate(90deg);}
+    50%{ transform: rotate(180deg);}
+    75%{ transform: rotate(270deg);}
+    100%{ transform: rotate(360deg);}
+}
+#head img{
+    height: 100px;  
+
+
+}
+#head #ours{
+    height: 100px;  
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+
+}
+
+.titre h2{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: blue;
+}
+.titre p{
+    text-align: center;
+    color:black;
+    font-family: 'Sono', sans-serif;
+}
+.paragraphe h4{
+text-decoration: underline;
+color:blue;
+margin-left: 1%;
+font-family: 'Sono', sans-serif;
+}
+.paragraphe p{ 
+ text-align: justify;
+ color: black;
+ margin-left: 1.5%;
+ font-family: 'Sono', sans-serif;
+
+}
+.paragraphe a:focus{
+    color: rgb(119, 224, 21);
+    font-size: larger;
+    text-decoration:underline;
+
+}
+.paragraphe a:active{
+    color:red;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 2%;
+}
+.navbar{
+    background-color: #ff9a9a;
+    padding: 15px 15px;
+    text-align: center;
+}
+.navbar a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.navbar a:hover{
+    color: #7c3939;
+    transition: 0.5s;
+   }
+   .containerRS{
+    background-color: #ff9a9a;
+    display: flex;
+    justify-content: space-evenly;
+    height: 120px; 
+    border-radius: 20px;
+}
+.containerRS .icon1{
+    color: blue;
+    font-size: 2rem;
+}
+.containerRS .icon2{
+    color: rgb(226, 23, 165);
+    font-size: 2rem;
+   
+}
+.containerRS .icon3{
+    color: rgb(228, 19, 19);
+    font-size: 2rem;
+}
+.co {
+    width: 2%;
+    height: 2%;
+
+}
+.bk{
+    background-color: #ff9a9a;
+}

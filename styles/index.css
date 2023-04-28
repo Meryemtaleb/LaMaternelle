@@ -1,0 +1,126 @@
+*{margin: 0;padding: 0;
+}
+#head{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content:space-around;
+    align-items: center;
+    padding: 1%;
+
+}
+@keyframes anime{
+    0%{ transform: rotate(0deg);}
+    25%{ transform: rotate(90deg);}
+    50%{ transform: rotate(180deg);}
+    75%{ transform: rotate(270deg);}
+    100%{ transform: rotate(360deg);}
+}
+#head img{
+    height: 100px;  
+
+
+}
+#head #ours{
+    height: 100px;  
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+
+}
+.hero{
+    height: 500px;
+    background-image: url(../img/Home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero p{
+    width: 30%;
+    color: white;
+    font-size: 22px;
+    margin-left: 8%;
+    margin-bottom: 10%;
+    text-align: justify;
+}
+.navbar{
+    background-color: #ff9a9a;
+    padding: 15px 15px;
+    text-align: center;
+}
+.navbar a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.navbar a:hover{
+    color: #7c3939;
+    transition: 0.5s;
+    
+}
+.img{
+    display: flex;
+    justify-content: center; 
+    height: 200px;
+    align-items: center;
+}
+#img1{
+    margin-right: 100px;
+}
+#img2{
+    height: 100px;
+}
+
+.para{
+    width: 60%;
+    margin: auto;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#orange{
+    color: orange;
+
+}
+.footer{
+    background-color: rgb(255, 154, 154);
+   
+}
+.footer .title{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.containerRS{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px; 
+    border-radius: 20px;
+}
+.containerRS .icon1{
+    color: blue;
+    font-size: 2rem;
+}
+.containerRS .icon2{
+    color: rgb(226, 23, 165);
+    font-size: 2rem;
+   
+}
+.containerRS .icon3{
+    color: rgb(228, 19, 19);
+    font-size: 2rem;
+}
+.title a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+.title a:hover{
+text-decoration: underline;
+transition: 0.5s;
+color: #7c3939;
+}

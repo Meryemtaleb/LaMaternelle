@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <title>La Maternelle de Moustache</title>
+
+</head>
+
+<body>
+  <!-- Header -->
+  <div id="head">
+    <img src="img/logo.png" id="ours" alt="">
+    <h1>LA MATERNELLE MOUSTACHE</h1>
+    <img src="img/ukr.png">
+  </div>
+  <nav class="navbar">
+    <a href="index.html">Accueil</a>
+    <a target="_blank" href="http://jt44.free.fr/">A lire</a>
+    <a href="theme.html">Themes</a>
+    <a href="faq.html">FAQ</a>
+    <a target="_blank" href="http://jt44.free.fr/">Agenda</a>
+    <a href="astuces.html">Astuces</a>
+  </nav>
+  <!-- Page content -->
+  <h3>Formulaire d'inscription</h3>
+  <form method="post" action="traitement.php">
+    <div class="formul">
+      <label for="Adresse">Nom </label>
+      <input type="text" name="nom" id="nom" placeholder="Saisie Votre nom " autofocus><br><br><br>
+      <label for="prénom">Prénom </label>
+      <input type="text" name="prénom" id="prénom" placeholder="Saisie Votre prénom "><br><br><br>
+      <label for="sexe">Sexe :</label>
+      <input type="radio" value="Féminin" name="sexe" id="Féminin">
+      <label for="Féminin">Féminin</label>
+      <input type="radio" value="Masculin" name="sexe" id="Masculin">
+      <label for="Masculin">Masculin</label><br><br><br>
+      <label for="Adresse">Adresse </label>
+      <input type="text" name="Adresse" id="Adresse"><br><br><br>
+      <label for="Code Postale">Code Postale </label>
+      <input type="text" name="Code Postale" id="Code Postale"><br><br><br>
+      <label for="Ville">Ville </label>
+      <input type="text" name="Ville" id="Ville"><br><br><br>
+      <label for="pays">Pays</label>
+      <input type="text" name="pays" id="pays"><br><br><br>
+      <label for="message">Message</label>
+      <input type="text" name="message" id="message"><br><br><br>
+      <div class="btnn">
+        <input type="submit" value="Envoyer" class="btn">
+        <input type="reset" value="Annuler" class="btn">
+      </div>
+    </div>
+  </form>
+  <!-- Google map -->
+  <div class="maps">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.956467218618!2d2.444708615472613!3d48.85904050861521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66db2a5d365f3%3A0x4b39f102d570b7d8!2sLGC-%20Agence%20de%20Montreuil!5e0!3m2!1sfr!2sfr!4v1678996843382!5m2!1sfr!2sfr"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <!--Footer-->
+  <footer class="footer">
+    <div class="title">
+      <a href="index.html">Accueil</a>
+      <p> © copyright 2023</p>
+      <h2>Rejoignez-nous sur nos réseaux </h2>
+    </div>
+    <section class="containerRS">
+      <a target="_blank" href="https://www.facebook.com/lamaternelledemoustache"><i
+          class="fa-brands icon1 fa-facebook"></i></a>
+      <a target="_blank" href="#"><i class="fa-brands icon2 fa-instagram"></i></a>
+      <a target="_blank" href="https://www.youtube.com/channel/UCA2RAqfNnQUfcuGPDX70Exw"><i
+          class="fa-brands icon3 fa-youtube"></i></a>
+    </section>
+  </footer>
+</body>
+
+</html>
